@@ -11,7 +11,7 @@ lazy val shared = crossProject.in(file(".")).
   settings(
     name := "shared",
     version := "0.1",
-    scalaVersion := "2.11.6"
+    scalaVersion := "2.11.7"
   )
   .jvmSettings(
     libraryDependencies ++= Seq(
